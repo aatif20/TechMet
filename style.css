@@ -1,0 +1,80 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+body{
+    background-color: #c9d6ff;
+    background: linear-gradient(to right, #e2e2e2e2,#c9d6ff);
+
+}  
+.container{
+    background: #fff;
+    width: 450px;
+    padding: 1.5rem;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 0 20px 35px rgba(0,0,1,0.9);
+}
+form{
+    margin: 0 2rem;
+
+}
+.form{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 1.3rem;
+    margin-bottom: 0.4rem;
+}
+input{
+    color:inherit;
+    width: 100px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #757575;
+    padding-left: 1.5rem;
+    font-size: 50px;
+
+}
+.input-group{
+    padding: 1% 0;
+    position: relative;
+}
+.input-group{
+    position: absolute;
+    color: black;
+
+}
+ input:focus{
+    background-color: transparent;
+    outline: transparent;
+    border-bottom: 2px solid hsl(327,90%,28%);
+
+ }
+ input::placeholder{
+    color: transparent;
+ }
+ label{
+    color: #757575;
+    position: relative;
+    left: 1.2em;
+    top: -1.3em;
+    cursor: auto;
+    transition: 0.3s ease all;
+ }
+ input:focus~label,input:not(:placeholder-shown)~label{
+    top: -3em;
+    color: hsl(327,90%,28%);
+    font-size: 15px;
+ }
+ .reccover{
+    text-align: right;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+ }
+ .recover{
+    
+ }
